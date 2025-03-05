@@ -1,0 +1,21 @@
+.aboutPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutPageDiv{
+    /* height: 55% ; */
+    width: 30% ;
+    border: 2px solid white;
+    padding: 40px;
+}
+
+.aboutPageDiv h1{
+    color: white;
+}
+
+.aboutPageDiv > P{
+    color: white;
+    font-size: 1.2rem;
+}

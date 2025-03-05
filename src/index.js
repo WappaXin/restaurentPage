@@ -1,8 +1,8 @@
-import "./css/index.css" ;
+import "./index.css" ;
 
-import {pageLoad} from './pageLoad.js' ;
-import {aboutPageLoad} from './aboutPage.js' ;
-import {contactPageLoad} from './contactPage.js';
+import {pageLoad} from './jsModules/pageLoad.js' ;
+import {aboutPageLoad} from './jsModules/aboutPage.js' ;
+import {contactPageLoad} from './jsModules/contactPage.js';
 
 
 function parentFunction(){
@@ -23,6 +23,3 @@ function parentFunction(){
 }
 
 parentFunction();
-
-
-

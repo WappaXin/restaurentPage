@@ -1,4 +1,28 @@
-.desiFoodImage{
-    height: auto;
+.pageLoadDiv{
+    height: 100%;
     width: 100%;
+    background-image: url(./../images/desi-food.jpg);
+    background-size: cover;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    overflow: hidden;
+} 
+
+.pageLoadDiv h1{
+    color: white;
+    padding: 50px;
+    font-size: 5rem;
+    width: fit-content;
+    margin: 50px 0 0 50px;
+    border-bottom: 5px solid white;
+    background-color: rgba(0, 0, 0, 0.555);
+}
+
+.pageLoadDiv div{
+    font-size: 2.5rem;
+    color: white;
+    width: 40%;
+    margin:50px 0 10px 50px;
+    background-color: rgba(0, 0, 0, 0.438);
+    padding: 20px;
 }
